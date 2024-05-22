@@ -1,0 +1,58 @@
+Telco Customer Churn Prediction
+
+This Streamlit application is designed to predict customer churn for a Telco company based on various customer attributes. It utilizes a CatBoostClassifier model trained on historical customer data to make predictions.
+
+Table of Contents
+Introduction
+Features
+Requirements
+Installation
+Usage
+Contributing
+License
+Introduction
+Customer churn prediction is crucial for businesses, especially in subscription-based services like telecommunications. Predicting which customers are likely to churn allows companies to take proactive measures to retain them, ultimately reducing revenue loss.
+
+This Streamlit application provides several functionalities:
+
+Feature Importance: Visualizes the importance of each feature in predicting churn using SHAP (SHapley Additive exPlanations) values.
+
+User-based SHAP: Allows users to select a specific customer and visualize how each feature contributes to the model's prediction for that customer.
+
+Calculate the Probability of Churn: Enables users to input data for a new customer and predicts the probability of churn for the new customer.
+
+Features
+
+Model: Utilizes a CatBoostClassifier model trained on historical Telco customer data.
+
+SHAP (SHapley Additive exPlanations): Provides explanations for individual predictions, helping understand the model's decision-making process.
+
+Interactive Visualizations: Enables users to interactively explore feature importance and individual predictions.
+
+
+Requirements
+Python 3.7+
+Streamlit
+Pandas
+Numpy
+Matplotlib
+CatBoost
+Joblib
+SHAP
+Installation
+
+
+To run the Streamlit application, use the following command:
+
+streamlit run streamlitapp.py
+
+Access the application via your web browser at the provided URL.
+
+Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or create a pull request.
+
+License
+This project is licensed under the MIT License.
+
+Feel free to customize this README to suit your specific project details and preferences.
